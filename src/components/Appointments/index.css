@@ -1,0 +1,88 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-family: Roboto;
+  color: #171f46;
+  font-size: 40px;
+}
+
+.label-el {
+  font-family: Roboto;
+  color: #b5b7c4;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-el {
+  height: 30px;
+  margin-bottom: 18px;
+}
+
+.add-btn {
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  border-width: 0;
+  padding: 5px;
+  width: 80px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.upper-part {
+  display: flex;
+}
+
+.appointment-logo {
+  height: 30vh;
+  background-size: cover;
+  margin-left: 250px;
+}
+
+.separator {
+  color: #b5b7c4;
+  border-width: 2px;
+}
+
+..heading {
+  font-family: Roboto;
+  color: #171f46;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.bottom-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mark-star {
+  color: #9796f0;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 18px;
+  border-color: #9796f0;
+  background-color: transparent;
+  height: 30px;
+  width: 80px;
+  margin-top: 20px;
+}
