@@ -86,3 +86,8 @@
   width: 80px;
   margin-top: 20px;
 }
+
+.appointments-container {
+  display: flex;
+  list-style-type: none;
+}
